@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -22,7 +22,7 @@ export default function LandingPage() {
       cardStyle="outline"
       primaryButtonStyle="diagonal-gradient"
       secondaryButtonStyle="minimal"
-      headingFontWeight={undefined}
+      headingFontWeight="normal"
     >
       <div id="nav" data-section="nav">
         <NavbarStyleMinimal
@@ -152,28 +152,32 @@ export default function LandingPage() {
               name: "Sarah Johnson",
               handle: "@sarah_coffee",
               testimonial: "Amazing quality mugs at great prices. The custom design option was perfect for my small business. Highly recommend!",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1765112203253-wl3b4603.jpg"
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1765112203253-wl3b4603.jpg",
+              imageAlt: "Sarah Johnson"
             },
             {
               id: "2",
               name: "Michael Chen",
               handle: "@mike_designs",
               testimonial: "Fast shipping and excellent customer service. My clients love the personalized mugs I ordered.",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1765112203948-8yblbuut.jpg"
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1765112203948-8yblbuut.jpg",
+              imageAlt: "Michael Chen"
             },
             {
               id: "3",
               name: "Emily Rodriguez",
               handle: "@emily_gifter",
               testimonial: "These mugs are perfect gifts. Great quality and the prices are unbeatable. Will order again!",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1765112204992-r6g8up8s.jpg"
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1765112204992-r6g8up8s.jpg",
+              imageAlt: "Emily Rodriguez"
             },
             {
               id: "4",
               name: "David Kim",
               handle: "@davidk_office",
               testimonial: "Corporate bulk order was seamless. Custom branding looks professional and the whole team loves them.",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1765112205708-t4qley73.jpg"
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1765112205708-t4qley73.jpg",
+              imageAlt: "David Kim"
             }
           ]}
           textboxLayout="default"
